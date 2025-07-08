@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация ECOS</title>
+    <title>ECOS</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
         body {
@@ -84,25 +84,25 @@
 </head>
 <body>
     <div class="container">
-        <h2>Регистрация в ECOS</h2>
+        <h2>ECOS</h2>
         <form id="regForm">
-            <label for="firstName">Имя*</label>
+            <label for="firstName">Имя/Name*</label>
             <input type="text" id="firstName" name="firstName" required>
-            <label for="lastName">Фамилия*</label>
+            <label for="lastName">Фамилия/Last Name*</label>
             <input type="text" id="lastName" name="lastName" required>
-            <label for="phone">Телефон*</label>
+            <label for="phone">Телефон/Phone*</label>
             <input type="tel" id="phone" name="phone" required pattern="[0-9\-\+\s\(\)]{7,}">
             <label for="email">Email*</label>
             <input type="email" id="email" name="email" required>
-            <label for="language">Язык*</label>
+            <label for="language">Язык/Language*</label>
             <select id="language" name="language" required style="width:100%;padding:13px 0;margin-bottom:22px;border:1.5px solid #d1d5db;border-radius:12px;background:#f7f7fa;font-size:16px;">
                 <option value="ru">Русский</option>
                 <option value="en">English</option>
                 <option value="hy">Հայերեն</option>
             </select>
-            <button type="submit">Зарегистрироваться</button>
+            <button type="submit">START</button>
         </form>
-        <div class="thanks" id="thanksMsg" style="display:none;">Спасибо!</div>
+        <div class="thanks" id="thanksMsg" style="display:none;">ECOS</div>
     </div>
     <script>
         const tg = window.Telegram.WebApp;
