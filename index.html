@@ -120,7 +120,7 @@
                 tgid: tg.initDataUnsafe?.user?.id || null
             };
             // Отправка данных на webhook
-            await fetch('https://n8n.blc.am/webhook/registration', {
+            await fetch('https://n8n-p.blc.am/webhook/registration', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
